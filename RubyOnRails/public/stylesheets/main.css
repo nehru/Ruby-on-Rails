@@ -1,0 +1,112 @@
+html{
+    font:11px Arial, Helvetica, sans-serif; /* Sets the font size and type for the whole html page */
+    color:#333;}
+
+
+body { 
+  margin: 0;	
+  padding: 0;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body a, body a:hover, body a:visited{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#00a;
+}
+
+#header {
+  background: #fff url(/images/green.png);
+ /* background-image:url('/images/green.png')*/
+/*  height: 60px;
+  margin-top: 10px;
+  text-align: left;
+  padding-top: 1px;*/
+}
+
+#container {
+  width: 760px;
+  min-width: 760px;	
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#sidemenu {
+  font-size: 80%;
+  float: left;
+  width: 100px;
+  padding: 0;
+}
+
+#sidemenu ul {
+  list-style: none; 
+  margin-left: 0px;
+  padding: 0;
+}
+
+a { color: #b00; }
+a:hover { background-color: #b00; color: #eee; }
+
+#content { float: right; width: 650px; }
+
+/*th { background-color: #933; color: #fff; }
+tr.odd { background-color: #fcc; }
+tr.even { background-color: #ecc; }*/
+
+th { background-color: #999; color: #fff; }
+tr.odd { background-color: #fff; }
+tr.even { background-color: #fff; }
+
+
+
+/* User table styling */
+table#users { width: 100%;}
+table#users th { font-size: 95%; }
+table#users td { font-size: 90%; }
+
+/* Forum styling */
+table#forums { width: 100%; background-color: #fff; border: 1px solid #c33; }
+table#forums td.name  { width: 60% }
+table#forums td.topic { width: 20%; text-align: center; }
+
+table#topics { width: 100%; background-color: #fff; border: 1px solid #000; }
+table#topics td.name   { width: 60% }
+table#topics td.reply  { width: 20%; text-align: center; }
+table#topics td.author { width: 20%; text-align: center; }
+
+table#posts { width: 100%; background-color: #fff; border: 1px solid #000; }
+table#posts td.author { width: 20%; vertical-align: top; }
+table#posts td.body   { width: 80% }
+
+.forumname { font-size: 1.1em; }
+.forumdescription { font-size: 0.7em; padding-top: 0.4em; }
+
+/*- Menu 9--------------------------- */
+
+#menu9 {
+	width: 200px;
+	margin: 10px;
+	}
+
+#menu9 li a {
+	height: 32px;
+  	voice-family: "\"}\"";
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}
+
+#menu9 li a:link, #menu9 li a:visited {
+	color: #FFF;
+	display: block;
+	background:  url(/images/menu9.gif);
+	padding: 8px 0 0 35px;
+	}
+
+#menu9 li a:hover {
+	color: #FFF;
+	background:  url(/images/menu9.gif) 0 -32px;
+	padding: 8px 0 0 35px;
+	}
+
+       

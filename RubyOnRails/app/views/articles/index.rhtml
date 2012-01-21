@@ -1,0 +1,32 @@
+<% content_for :head do %>
+  <%= auto_discovery_link_tag %>
+ <%= will_paginate @articles %>
+<% end %>
+
+<% if is_logged_in? and logged_in_user.has_role?('Moderator') %>
+  <p><%= link_to 'Create New Blog', new_article_path -%></p>
+<% end %>
+
+
+<h2>News Articles</h2>
+
+
+<% @articles.each do |article| %>
+  <div class="article">
+    <h3><%= article.title %></h3>
+    <% if article.category %>
+      <p class="category">
+        Category: '<%= link_to article.category.name,
+                         category_articles_path(article.category) %>'
+      </p>
+    <% end %>
+
+    <p>
+      <%= article.created_at.to_s(:short) %> by <%= article.user.username %><br />
+      <%= article.synopsis %><br />
+      <%= link_to 'Read the full article', article_url(article) %>
+    </p>
+  </div>
+<% end %>
+
+

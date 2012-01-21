@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip
+END
+paperclip.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip/paperclip.gemspec
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip/README.rdoc
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/novella/!svn/ver/29/vendor/plugins/paperclip/init.rb
+END
